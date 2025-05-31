@@ -9,4 +9,5 @@ if webcam.isOpened():
         cv2.imshow("Video da webcam", frame)
         key = cv2.waitKey(5)
         if key == 27: #ESC(Teclas tem um número específico)
-            break
+            break 
+
