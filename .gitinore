@@ -1,0 +1,7 @@
+**/venv/
+**/node_modules/
+**/dist/
+**/build/
+**/site/
+**/.env
+**/postgres_data/
