@@ -10,15 +10,7 @@ Uma tabela de estados é uma representação estruturada dos possíveis estados 
     O conteúdo deste tópico **poderá sofrer alterações** ao longo do projeto. Portanto, as tabelas serão organizadas iniciando pela versão mais recente e finalizando com a versão mais antiga.
 
 <center>
-  <span style="background-color:#1ec68e; color:white; font-size:0.8em; font-weight: bold; padding:2px 6px; border-radius:4px;">Tabela de estados | Versão 1.0</span>
+  <span style="background-color:#1ec68e; color:white; font-size:0.8em; font-weight: bold; padding:2px 6px; border-radius:4px;">Tabela de estados | Versão 2.0</span>
 </center>
 
-    | ID | Estado      | Descrição                                 | Inputs                                                      | Outputs                                                                      |
-    | -- | ----------- | ----------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------- |
-    | 1  | IDLE        | Aguardando a missão começar               | Comando de ligar o drone                                    |                                                                              |
-    | 2  | TAKEOFF     | Subindo até a altura pré definida         | Comando de início recebido                                  | Ativa os motores e sobe até a altura alvo                                    |
-    | 3  | SEARCH      | Procurando o alvo ou a linha e a segue    | Altura alcançada / QR code inválido / Entrega realizada     | Captura imagens dos QR codes / identifica linha e segue ou base de pouso     |
-    | 4  | READ        | Lendo o QR Code                           | QR code detectado                                           | leitura do QR code                                                           |
-    | 5  | APPROACH    | Aproxima-se da base                       | QR code valido / base de pouso detectada                    | move em direção à base                                                       |
-    | 6  | DELIEVER    | Aguarda a carga ser liberada              | base alcançada                                              | liberação da carga                                                           |
-    | 7  | LAND        | Pousando                                  | base alcançada                                              | reduz altitude, pousa                                                        |
+[Clique aqui para ver o PDF](/logica_missao/maquina_estados/maquina_estados_EDRA.pdf)
